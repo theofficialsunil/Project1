@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+div {
+    display: inline-block;
+}
+#box1 {
+    width: 100%; /* Adjust for smaller screens */
+    max-width: 300px; /* Maintain maximum width for larger screens */
+    height: 450px;
+    background-color: white;
+    margin: 10%;
+    margin-left:30%;
+}
+#box2 {
+    width: 200px;
+    height: 350px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    margin: 50px;
+    /* text-align: center; */
+    padding: 5px;
+}
+#box3 {
+    background-color:aliceblue;
+    margin: 10px;
+}
+.A {
+    width: 16px;
+    height: 8px;
+    font-size: 5px;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+    margin: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#head {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    text-align: center;
+    align-items: center; /* {Optional, doesn't impact here}*/
+    border-radius: 10px;
+    margin: 0 auto; /* Centers the button horizontally */
+    display: block; /* Required for margin auto to work */
+    background-color: #bbdefb;
+    color: rgb(0, 81, 255);
+    border-color: transparent;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+img {
+    border-radius: 10px;
+    width: 180px;
+}
+
+
